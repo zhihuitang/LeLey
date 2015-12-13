@@ -14,6 +14,7 @@
 		025D32FE1C1DBCDC00E96A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025D32FC1C1DBCDC00E96A40 /* LaunchScreen.storyboard */; };
 		025D33091C1DBCDD00E96A40 /* LeLeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D33081C1DBCDD00E96A40 /* LeLeTests.swift */; };
 		025D33141C1DBCDD00E96A40 /* LeLeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D33131C1DBCDD00E96A40 /* LeLeUITests.swift */; };
+		ED3E62569B7B0886936A8E0C /* Pods_LeLe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBB8217973FFA8C6936C4FC /* Pods_LeLe.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		025D330F1C1DBCDD00E96A40 /* LeLeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeLeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025D33131C1DBCDD00E96A40 /* LeLeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeLeUITests.swift; sourceTree = "<group>"; };
 		025D33151C1DBCDD00E96A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D31D64BE430519CDBB246B3 /* Pods-LeLe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeLe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeLe/Pods-LeLe.debug.xcconfig"; sourceTree = "<group>"; };
+		C36B9510060FA2C2C1E0EE48 /* Pods-LeLe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeLe.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeLe/Pods-LeLe.release.xcconfig"; sourceTree = "<group>"; };
+		FCBB8217973FFA8C6936C4FC /* Pods_LeLe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeLe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3E62569B7B0886936A8E0C /* Pods_LeLe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				025D33071C1DBCDD00E96A40 /* LeLeTests */,
 				025D33121C1DBCDD00E96A40 /* LeLeUITests */,
 				025D32F11C1DBCDC00E96A40 /* Products */,
+				D4E6A90604BB24E237F3F0D0 /* Pods */,
+				FA1A8F213A740F2EEB1380E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = LeLeUITests;
 			sourceTree = "<group>";
 		};
+		D4E6A90604BB24E237F3F0D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D31D64BE430519CDBB246B3 /* Pods-LeLe.debug.xcconfig */,
+				C36B9510060FA2C2C1E0EE48 /* Pods-LeLe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA1A8F213A740F2EEB1380E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBB8217973FFA8C6936C4FC /* Pods_LeLe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 025D33181C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLe" */;
 			buildPhases = (
+				453F8AC3E9ACD8F66F359938 /* Check Pods Manifest.lock */,
 				025D32EC1C1DBCDC00E96A40 /* Sources */,
 				025D32ED1C1DBCDC00E96A40 /* Frameworks */,
 				025D32EE1C1DBCDC00E96A40 /* Resources */,
+				2E00122D2CE08F6DD8F53C88 /* Embed Pods Frameworks */,
+				77D0D43E5CA910BBB49B93F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E00122D2CE08F6DD8F53C88 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeLe/Pods-LeLe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453F8AC3E9ACD8F66F359938 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77D0D43E5CA910BBB49B93F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeLe/Pods-LeLe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		025D32EC1C1DBCDC00E96A40 /* Sources */ = {
@@ -397,8 +472,10 @@
 		};
 		025D33191C1DBCDD00E96A40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D31D64BE430519CDBB246B3 /* Pods-LeLe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LeLe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLe;
@@ -408,8 +485,10 @@
 		};
 		025D331A1C1DBCDD00E96A40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36B9510060FA2C2C1E0EE48 /* Pods-LeLe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LeLe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLe;
@@ -484,6 +563,7 @@
 				025D331A1C1DBCDD00E96A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		025D331B1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +572,7 @@
 				025D331D1C1DBCDD00E96A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		025D331E1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +581,7 @@
 				025D33201C1DBCDD00E96A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

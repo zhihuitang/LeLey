@@ -1,0 +1,6 @@
+framework module Pods_LeLe {
+  umbrella header "Pods-LeLe-umbrella.h"
+
+  export *
+  module * { export * }
+}
