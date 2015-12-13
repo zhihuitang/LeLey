@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025D32F41C1DBCDC00E96A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D32F31C1DBCDC00E96A40 /* AppDelegate.swift */; };
+		025D32F61C1DBCDC00E96A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D32F51C1DBCDC00E96A40 /* ViewController.swift */; };
+		025D32F91C1DBCDC00E96A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025D32F71C1DBCDC00E96A40 /* Main.storyboard */; };
+		025D32FB1C1DBCDC00E96A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025D32FA1C1DBCDC00E96A40 /* Assets.xcassets */; };
+		025D32FE1C1DBCDC00E96A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025D32FC1C1DBCDC00E96A40 /* LaunchScreen.storyboard */; };
+		025D33091C1DBCDD00E96A40 /* LeLeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D33081C1DBCDD00E96A40 /* LeLeTests.swift */; };
+		025D33141C1DBCDD00E96A40 /* LeLeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D33131C1DBCDD00E96A40 /* LeLeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025D33051C1DBCDD00E96A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025D32E81C1DBCDC00E96A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025D32EF1C1DBCDC00E96A40;
+			remoteInfo = LeLe;
+		};
+		025D33101C1DBCDD00E96A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025D32E81C1DBCDC00E96A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025D32EF1C1DBCDC00E96A40;
+			remoteInfo = LeLe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025D32F01C1DBCDC00E96A40 /* LeLe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeLe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025D32F31C1DBCDC00E96A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025D32F51C1DBCDC00E96A40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025D32F81C1DBCDC00E96A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025D32FA1C1DBCDC00E96A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025D32FD1C1DBCDC00E96A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025D32FF1C1DBCDC00E96A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025D33041C1DBCDD00E96A40 /* LeLeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeLeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025D33081C1DBCDD00E96A40 /* LeLeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeLeTests.swift; sourceTree = "<group>"; };
+		025D330A1C1DBCDD00E96A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025D330F1C1DBCDD00E96A40 /* LeLeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeLeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025D33131C1DBCDD00E96A40 /* LeLeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeLeUITests.swift; sourceTree = "<group>"; };
+		025D33151C1DBCDD00E96A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025D32ED1C1DBCDC00E96A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D33011C1DBCDD00E96A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D330C1C1DBCDD00E96A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025D32E71C1DBCDC00E96A40 = {
+			isa = PBXGroup;
+			children = (
+				025D32F21C1DBCDC00E96A40 /* LeLe */,
+				025D33071C1DBCDD00E96A40 /* LeLeTests */,
+				025D33121C1DBCDD00E96A40 /* LeLeUITests */,
+				025D32F11C1DBCDC00E96A40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025D32F11C1DBCDC00E96A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025D32F01C1DBCDC00E96A40 /* LeLe.app */,
+				025D33041C1DBCDD00E96A40 /* LeLeTests.xctest */,
+				025D330F1C1DBCDD00E96A40 /* LeLeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025D32F21C1DBCDC00E96A40 /* LeLe */ = {
+			isa = PBXGroup;
+			children = (
+				025D32F31C1DBCDC00E96A40 /* AppDelegate.swift */,
+				025D32F51C1DBCDC00E96A40 /* ViewController.swift */,
+				025D32F71C1DBCDC00E96A40 /* Main.storyboard */,
+				025D32FA1C1DBCDC00E96A40 /* Assets.xcassets */,
+				025D32FC1C1DBCDC00E96A40 /* LaunchScreen.storyboard */,
+				025D32FF1C1DBCDC00E96A40 /* Info.plist */,
+			);
+			path = LeLe;
+			sourceTree = "<group>";
+		};
+		025D33071C1DBCDD00E96A40 /* LeLeTests */ = {
+			isa = PBXGroup;
+			children = (
+				025D33081C1DBCDD00E96A40 /* LeLeTests.swift */,
+				025D330A1C1DBCDD00E96A40 /* Info.plist */,
+			);
+			path = LeLeTests;
+			sourceTree = "<group>";
+		};
+		025D33121C1DBCDD00E96A40 /* LeLeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025D33131C1DBCDD00E96A40 /* LeLeUITests.swift */,
+				025D33151C1DBCDD00E96A40 /* Info.plist */,
+			);
+			path = LeLeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025D32EF1C1DBCDC00E96A40 /* LeLe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025D33181C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLe" */;
+			buildPhases = (
+				025D32EC1C1DBCDC00E96A40 /* Sources */,
+				025D32ED1C1DBCDC00E96A40 /* Frameworks */,
+				025D32EE1C1DBCDC00E96A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeLe;
+			productName = LeLe;
+			productReference = 025D32F01C1DBCDC00E96A40 /* LeLe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025D33031C1DBCDD00E96A40 /* LeLeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025D331B1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeTests" */;
+			buildPhases = (
+				025D33001C1DBCDD00E96A40 /* Sources */,
+				025D33011C1DBCDD00E96A40 /* Frameworks */,
+				025D33021C1DBCDD00E96A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025D33061C1DBCDD00E96A40 /* PBXTargetDependency */,
+			);
+			name = LeLeTests;
+			productName = LeLeTests;
+			productReference = 025D33041C1DBCDD00E96A40 /* LeLeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025D330E1C1DBCDD00E96A40 /* LeLeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025D331E1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeUITests" */;
+			buildPhases = (
+				025D330B1C1DBCDD00E96A40 /* Sources */,
+				025D330C1C1DBCDD00E96A40 /* Frameworks */,
+				025D330D1C1DBCDD00E96A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025D33111C1DBCDD00E96A40 /* PBXTargetDependency */,
+			);
+			name = LeLeUITests;
+			productName = LeLeUITests;
+			productReference = 025D330F1C1DBCDD00E96A40 /* LeLeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025D32E81C1DBCDC00E96A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zhihui Tang";
+				TargetAttributes = {
+					025D32EF1C1DBCDC00E96A40 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					025D33031C1DBCDD00E96A40 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 025D32EF1C1DBCDC00E96A40;
+					};
+					025D330E1C1DBCDD00E96A40 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 025D32EF1C1DBCDC00E96A40;
+					};
+				};
+			};
+			buildConfigurationList = 025D32EB1C1DBCDC00E96A40 /* Build configuration list for PBXProject "LeLe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025D32E71C1DBCDC00E96A40;
+			productRefGroup = 025D32F11C1DBCDC00E96A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025D32EF1C1DBCDC00E96A40 /* LeLe */,
+				025D33031C1DBCDD00E96A40 /* LeLeTests */,
+				025D330E1C1DBCDD00E96A40 /* LeLeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025D32EE1C1DBCDC00E96A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D32FE1C1DBCDC00E96A40 /* LaunchScreen.storyboard in Resources */,
+				025D32FB1C1DBCDC00E96A40 /* Assets.xcassets in Resources */,
+				025D32F91C1DBCDC00E96A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D33021C1DBCDD00E96A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D330D1C1DBCDD00E96A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025D32EC1C1DBCDC00E96A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D32F61C1DBCDC00E96A40 /* ViewController.swift in Sources */,
+				025D32F41C1DBCDC00E96A40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D33001C1DBCDD00E96A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D33091C1DBCDD00E96A40 /* LeLeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025D330B1C1DBCDD00E96A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025D33141C1DBCDD00E96A40 /* LeLeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025D33061C1DBCDD00E96A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025D32EF1C1DBCDC00E96A40 /* LeLe */;
+			targetProxy = 025D33051C1DBCDD00E96A40 /* PBXContainerItemProxy */;
+		};
+		025D33111C1DBCDD00E96A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025D32EF1C1DBCDC00E96A40 /* LeLe */;
+			targetProxy = 025D33101C1DBCDD00E96A40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025D32F71C1DBCDC00E96A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025D32F81C1DBCDC00E96A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025D32FC1C1DBCDC00E96A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025D32FD1C1DBCDC00E96A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025D33161C1DBCDD00E96A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025D33171C1DBCDD00E96A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025D33191C1DBCDD00E96A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeLe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		025D331A1C1DBCDD00E96A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeLe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		025D331C1C1DBCDD00E96A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeLeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeLe.app/LeLe";
+			};
+			name = Debug;
+		};
+		025D331D1C1DBCDD00E96A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeLeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeLe.app/LeLe";
+			};
+			name = Release;
+		};
+		025D331F1C1DBCDD00E96A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeLeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeLe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		025D33201C1DBCDD00E96A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeLeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanggod.LeLeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeLe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025D32EB1C1DBCDC00E96A40 /* Build configuration list for PBXProject "LeLe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025D33161C1DBCDD00E96A40 /* Debug */,
+				025D33171C1DBCDD00E96A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025D33181C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025D33191C1DBCDD00E96A40 /* Debug */,
+				025D331A1C1DBCDD00E96A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		025D331B1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025D331C1C1DBCDD00E96A40 /* Debug */,
+				025D331D1C1DBCDD00E96A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		025D331E1C1DBCDD00E96A40 /* Build configuration list for PBXNativeTarget "LeLeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025D331F1C1DBCDD00E96A40 /* Debug */,
+				025D33201C1DBCDD00E96A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025D32E81C1DBCDC00E96A40 /* Project object */;
+}
